@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
     "Gemfile.lock",
     "Rakefile",
     "VERSION",
+    "barmcakes.gem",
     "barmcakes.gemspec",
     "lib/arrghs.rb",
     "lib/barmcakes.rb",
