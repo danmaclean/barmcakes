@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "barmcakes"
-  s.version = "0.0.2"
+  s.version = "0.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dan MacLean"]
@@ -14,17 +14,11 @@ Gem::Specification.new do |s|
   s.email = "maclean.daniel@gmail.com"
   s.files = [
     ".DS_Store",
-    "Gemfile",
-    "Gemfile.lock",
-    "Rakefile",
     "VERSION",
+    "barmcakes-0.0.0.gem",
     "barmcakes.gemspec",
     "lib/arrghs.rb",
-    "lib/barmcakes.rb",
-    "lib/file.rb",
-    "test/file_sample.txt",
-    "test/helper.rb",
-    "test/test_file.rb"
+    "lib/barmcakes.rb"
   ]
   s.homepage = "http://github.com/danmaclean/barmcakes"
   s.licenses = ["MIT"]
