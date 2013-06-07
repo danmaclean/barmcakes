@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "barmcakes"
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dan MacLean"]
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "lib/arrghs.rb",
     "lib/barmcakes.rb",
     "lib/file.rb",
+    "pkg/barmcakes-0.0.2.gem",
     "test/file_sample.txt",
     "test/helper.rb",
     "test/test_file.rb"
