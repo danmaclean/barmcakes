@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "lib/barmcakes.rb",
     "lib/file.rb",
     "pkg/barmcakes-0.0.2.gem",
+    "pkg/barmcakes-0.0.3.gem",
     "test/file_sample.txt",
     "test/helper.rb",
     "test/test_file.rb"
