@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'barmcakes'
-  s.version     = '0.0.1'
+  s.version     = '0.0.5'
   s.date        = '2013-06-06'
   s.summary     = "Miscellenitudinal tools and hack classes"
   s.description = "Just really stuff that I cobbled together that I use. You probably don't want this."
@@ -12,5 +12,5 @@ Gem::Specification.new do |s|
     "lib/file.rb"
     ]
   s.homepage    =
-    'http://github.com/danmaclean'
+    'http://github.com/danmaclean/barmcakes'
 end
