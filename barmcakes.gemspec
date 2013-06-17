@@ -9,7 +9,8 @@ Gem::Specification.new do |s|
   s.files       = [
     "lib/barmcakes.rb",
     "lib/arrghs.rb",
-    "lib/file.rb"
+    "lib/file.rb",
+    "lib/circola.rb"
     ]
   s.homepage    =
     'http://github.com/danmaclean/barmcakes'
