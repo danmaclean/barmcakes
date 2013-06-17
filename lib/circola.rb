@@ -91,6 +91,18 @@ module Circola
     Pathname.new(self.full_path).relative_path_from(Pathname.new(Dir.pwd)).to_s
   end
  
+  def Circola.make_ideogram(opts)
+    opts = {
+      :file => nil,
+      :default => "2u",
+      :pairwise => nil
+    }.merge!(opts)
+    f = File.open(opts[:file], "w")
+    f.puts "<ideogram>\n<spacing>\n#{opts[:default]}</spacing></ideogram>"
+    f.close
+    f
+  end
+ 
   def Circola.prep_conf(opts)
     opts = {
       :file => nil,
@@ -99,7 +111,7 @@ module Circola
       :karyotype => nil,
       :includes => []
     }.merge!(opts)
-    f = File.open(opts[:file], "w") rescue $stdout
+    f = File.open(opts[:file], "w")
     [:karyotype, :chromosomes_units, :chromosomes_display_default].each do |par|
       f.puts "#{par} = #{opts[par]}"
     end

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'barmcakes'
-  s.version     = '0.0.6'
+  s.version     = '0.0.7'
   s.date        = '2013-06-13'
   s.summary     = "Miscellenitudinal tools and hack classes"
   s.description = "Just really stuff that I cobbled together that I use. You probably don't want this."
